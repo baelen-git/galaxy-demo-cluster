@@ -23,6 +23,7 @@ variable "vc_password" {
 }
 
 variable "tags" {
-  type = list
+  type = list(map(string))
   description = "tags you want to use"
+  default = []
 }
