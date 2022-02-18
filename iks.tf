@@ -10,7 +10,7 @@ module "iks" {
     interfaces         = ["DV_VLAN1056"]
     vcTargetName       = "gffa-vcenter.galaxy.cisco.com"
     vcClusterName      = "GFFA-HX2-Cluster"
-    vcDatastoreName    = "CCPDatastore"
+    vcDatastoreName    = "CCPdatastore"
     vcPassword         = var.vc_password
     vcResourcePoolName = ""
   }
