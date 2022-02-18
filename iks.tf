@@ -61,7 +61,7 @@ module "iks" {
   # Cluster information
   cluster = {
     name                = "baelen-terraform"
-    action              = "Unassign"
+    action              = "Deploy"
     wait_for_completion = false
     ssh_user            = "iksadmin"
     ssh_public_key      = var.ssh_key
